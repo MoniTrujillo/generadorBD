@@ -1,4 +1,4 @@
-// $ANTLR 3.5.2 gramatica.g 2026-04-16 11:32:23
+// $ANTLR 3.5.2 gramatica.g 2026-05-25 18:28:40
 
 import java.util.ArrayList;
 import java.util.List;
@@ -63,7 +63,7 @@ public class gramaticaParser extends Parser {
 	    boolean error = false;
 	    List<String> errores = new ArrayList<String>();
 
-	    // 🔥 ORDEN CORRECTO
+	    // ORDEN CORRECTO
 	    Set<String> tablas = new LinkedHashSet<String>();
 
 	    Map<String, Set<String>> camposPorTabla = new HashMap<String, Set<String>>();
@@ -365,7 +365,7 @@ public class gramaticaParser extends Parser {
 			            error = true;
 			        }
 
-			        // Remover última coma y newline antes de cerrar
+			        
 			        if (sql.endsWith(",\n")) {
 			            sql = sql.substring(0, sql.length() - 2) + "\n";
 			        }

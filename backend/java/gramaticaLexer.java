@@ -1,4 +1,4 @@
-// $ANTLR 3.5.2 gramatica.g 2026-04-16 11:32:24
+// $ANTLR 3.5.2 gramatica.g 2026-05-25 18:28:40
 
 import org.antlr.runtime.*;
 import java.util.Stack;
